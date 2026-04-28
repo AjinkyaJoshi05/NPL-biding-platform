@@ -1,0 +1,8 @@
+export const formatCurrency = (value = 0) =>
+  new Intl.NumberFormat("en-IN", {
+    style: "currency",
+    currency: "INR",
+    maximumFractionDigits: 0
+  }).format(value);
+
+export const BID_INCREMENTS = [50, 100, 500, 1000];
