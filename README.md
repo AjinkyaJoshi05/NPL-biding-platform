@@ -103,8 +103,8 @@ The UI uses polling every 1 second for live updates. No Redux is used; state sta
 ### 1. Prerequisites
 
 - Node.js 20+
-- MongoDB running locally, or a MongoDB Atlas connection string
-
+- MongoDB running locally
+  
 ### 2. Install Dependencies
 
 ```bash
